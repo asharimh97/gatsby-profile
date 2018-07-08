@@ -31,6 +31,7 @@ const Layout = ({ children, data }) => (
     >  
     
     <SectionTitle title="About me" subtitle="Lorem Ipsum Dolorsit Amet Nunc" />
+    <blockquote style={{ fontStyle: 'italic', padding: '0 20px' }}>Hello there, I am Ashari Muhammad Hisbulloh. Frontend developer and outdoor activities ethusiast. I have been learning frontend development thing for about 2 years, previously I was a backend developer using PHP as its language and Laravel as its framework. My journey in my first startup turn my life to frontend developer because I consider it as a challenging thing, so I take the challenge. I also do some design, my brand's name is Hizbullohdesign. You can check it on my <a href="http://behance.net/hizbullohdesign" target="_blank">Behance</a>.</blockquote>
 
     <SectionTitle title="What I do" subtitle="Lorem Ipsum Dolorsit Amet Nunc" />
     <div
@@ -44,8 +45,6 @@ const Layout = ({ children, data }) => (
       <IconBlock icon='./assets/img/idea.png' caption="code"/>
       <IconBlock icon='./assets/img/adventure.png' caption="scout"/>
     </div>
-
-    <SectionTitle title="Enjoy the content" subtitle="Lorem Ipsum Dolorsit Amet Nunc" />
 
     <SectionTitle title="My latest post" subtitle="Lorem Ipsum Dolorsit Amet Nunc" />
     <div
