@@ -3,7 +3,7 @@ import React from 'react'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: `url('/assets/img/cover.jpg')`,
+      background: `url('./assets/img/cover.jpg')`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundAttachment: 'fixed',
